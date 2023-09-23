@@ -100,6 +100,10 @@
       padding-right: 840px;
     }
 
+    .message-wrapper h1{
+      padding-top: 10px;
+    }
+
     .box1 {
       height: 200px;
       border: solid;
@@ -119,7 +123,8 @@
       height: 200px;
       width: 500px;
       padding: 10px 10px;
-      margin-left: 600px;
+      margin-left: 650px;
+      margin-top: -180px;
     }
 
 
@@ -134,3 +139,4 @@
       background-color: red;
     }
    
+    /*アニメーション*/
