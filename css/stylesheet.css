@@ -96,8 +96,9 @@
     .message-wrapper {
       height: 200px;
       padding-top: 700px;
-      padding-left: 20px;
-      padding-right: 840px;
+      padding-left: 10px;
+      padding-right: 800px;
+      margin-left: 120px;
     }
 
     .message-wrapper h1{
@@ -105,10 +106,11 @@
     }
 
     .box1 {
-      height: 200px;
+      height: 250px;
       border: solid;
       border-radius: 8px;
       border: 2px solid;
+      width: 650px;
     }
 
     .box1 h2 {
@@ -127,16 +129,104 @@
       margin-top: -180px;
     }
 
+    .box2 {
+      height: 200px;
+      border: solid;
+      border-radius: 8px;
+      border: 2px solid;
+      margin-top: 50px;
+      position: relative;
+      left: 700px;
+      padding-left: 10px;
+    }
 
-    footer p {
-      color: #b3aeb5;
-      font-size: 12px;
+    .box2 h2{
+      padding-left: 15px;
+    }
+
+    .box2 img {
+      height: 200px;
+      width: 500px;
+      padding: 10px 10px;
+      margin-left: -650px;
+      margin-top: -200px; 
+    }
+
+    .box3 {
+      height: 200px;
+      border: solid;
+      border-radius: 8px;
+      border: 2px solid;
+      margin-top: 50px;
+      position: relative;
+      padding-left: 10px;
+    }
+
+    .box3 h2{
+      padding-left: 15px;
+    }
+
+    .box3 iframe {
+      position: relative;
+      left: 700px;
+      bottom: 200px;
+      height: 280px;
+    }
+
+    .box4 iframe {
+      position: relative;
+      top: 50px;
+      height: 280px;
+    }
+
+    .end {
+      position: absolute;
+    }
+
+    .end h2 {
+      padding-top: 100px;
+      text-align: center;
+      bottom: 0;
+      margin-left: 320px;
+    }
+
+   footer {
+   
+   }
+   
+    /*snsページ*/
+    .sns-wrapper {
+      padding-top: 100px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .sns-wrapper h1{
+      text-align: center;
+    }
+
+    .list ul{
+      padding: 2em 5em;
+      list-style-type: none;
+      border: none;
+    }
+    .list ul li {
+      padding: 1em 1em 1em 1em;
+      margin: 0 0 7px 0;
+      line-height: 1.5;
+      background: #93f8ff;
+      vertical-align: middle;
+      border-radius: 17px 0px 0px 17px;
+      margin: 50px;
+    }
+    .list ul li:before{
+      display:inline-block; 
+      vertical-align: middle;
+      content:'';
+      width:1em;
+      height: 1em;
+      background: #fff;
+      border-radius: 50%;
+      margin: 0 7px 3px 0;
     }
     
-    footer {
-      padding-top: 30px;
-      padding-bottom: 20px;
-      background-color: red;
-    }
-   
-    /*アニメーション*/
