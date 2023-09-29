@@ -274,3 +274,11 @@
       background-blend-mode: overlay;
       background-color: #2d3133;
     }
+
+    .blog-wrapper {
+      height: 200px;
+      padding-top: 700px;
+      padding-left: 10px;
+      padding-right: 800px;
+      margin-left: 120px;
+    }
