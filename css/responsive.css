@@ -1,0 +1,5 @@
+@media (max-width: 670px) {
+    .message-wrapper img{
+        display: none;
+    }
+}
